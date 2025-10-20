@@ -1,12 +1,16 @@
 <script setup>
-import BanJia from "./components/BanJia.vue"
-import Student from "./components/Student.vue"
+import ParentJob1 from "./components/ParentJob1.vue"
+// import CounterParent from "./components/CounterParent.vue"
+// import TopLevel from "./components/TopLevel.vue"
+import CardParent from "./components/CardParent.vue"
 </script>
 
 <template>
   <div>
-    <Student />
-    <BanJia />
+    <ParentJob1></ParentJob1>
+    <!-- <CounterParent></CounterParent> -->
+    <!-- <TopLevel></TopLevel> -->
+    <!-- <CardParent></CardParent> -->
   </div>
 </template>
 
